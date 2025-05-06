@@ -60,4 +60,5 @@ By combining these technologies, the system improves **accuracy, efficiency, and
 ```bash
 git clone https://github.com/KrishanuGharami/smart-vision-quality-control.git
 cd smart-vision-quality-control
-
+```
+### 2. Create Virtual Environment (optional but recommended)
