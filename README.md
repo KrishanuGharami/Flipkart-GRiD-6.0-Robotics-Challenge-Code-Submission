@@ -66,3 +66,42 @@ cd smart-vision-quality-control
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Download Tesseract (for OCR)
+https://github.com/tesseract-ocr/tesseract
+### 5. Run the Application
+```bash
+python main.py
+```
+
+## Project Structure
+```bash
+smart-vision-quality-control/
+│
+├── data/                  # Sample images and datasets
+├── models/                # Trained ML/DL models
+├── scripts/               # Core OCR, IR, and image processing scripts
+├── utils/                 # Helper functions
+├── requirements.txt       # Dependencies
+├── README.md              # Project documentation
+└── main.py                # Entry point
+```
+
+## Demo
+Screenshots
+
+## Contributions
+Contributions are welcome! Please fork the repository, make changes, and open a pull request. For major changes, kindly open an issue first to discuss what you'd like to change.
+
+## Author
+Krishanu Gharami – Developer / ML Engineer
+
+## Acknowledgements
+1. Flipkart GRiD 6.0 - Robotics Challenge Hackathon 2024
+2. TensorFlow, OpenCV, Tesseract, and other open-source tools
+
+## Contact
+For any queries, feel free to reach out via [24krishanugharami@gmail.com] or open an issue on this repository.
