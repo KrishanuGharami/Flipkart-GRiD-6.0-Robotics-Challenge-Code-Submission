@@ -58,6 +58,6 @@ By combining these technologies, the system improves **accuracy, efficiency, and
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/smart-vision-quality-control.git
+git clone https://github.com/KrishanuGharami/smart-vision-quality-control.git
 cd smart-vision-quality-control
 
