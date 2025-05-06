@@ -62,3 +62,7 @@ git clone https://github.com/KrishanuGharami/smart-vision-quality-control.git
 cd smart-vision-quality-control
 ```
 ### 2. Create Virtual Environment (optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
