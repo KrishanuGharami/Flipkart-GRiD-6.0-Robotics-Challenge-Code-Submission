@@ -93,7 +93,8 @@ smart-vision-quality-control/
 ## 📸 Screenshots
 | Desktop View                                 | Mobile View                                |
 | -------------------------------------------- | ------------------------------------------ |
-| ![Desktop](https://github.com/user-attachments/assets/2c31a384-0e56-4de3-a33f-2325eac5d77d) | ![Mobile]() |
+| ![Desktop](https://github.com/user-attachments/assets/2c31a384-0e56-4de3-a33f-2325eac5d77d) | ![Mobile](https://github.com/user-attachments/assets/8584dbcf-dabd-487e-9f89-40004c90ed62) | 
+
 
 ## Contributions
 Contributions are welcome! Please fork the repository, make changes, and open a pull request. For major changes, kindly open an issue first to discuss what you'd like to change.
