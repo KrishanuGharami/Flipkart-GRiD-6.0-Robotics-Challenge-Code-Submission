@@ -90,8 +90,10 @@ smart-vision-quality-control/
 └── main.py                # Entry point
 ```
 
-## Demo
-Screenshots
+## 📸 Screenshots
+| Desktop View                                 | Mobile View                                |
+| -------------------------------------------- | ------------------------------------------ |
+| ![Desktop](https://github.com/user-attachments/assets/2c31a384-0e56-4de3-a33f-2325eac5d77d) | ![Mobile]() |
 
 ## Contributions
 Contributions are welcome! Please fork the repository, make changes, and open a pull request. For major changes, kindly open an issue first to discuss what you'd like to change.
