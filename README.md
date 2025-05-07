@@ -107,4 +107,4 @@ Krishanu Gharami – Developer / ML Engineer
 2. TensorFlow, OpenCV, Tesseract, and other open-source tools
 
 ## Contact
-For any queries, feel free to reach out via [24krishanugharami@gmail.com] or open an issue on this repository.
+For any queries, feel free to reach out via [24krishanugharami@gmail.com] or open an issue on this repository
