@@ -1,0 +1,75 @@
+{
+  "format": "layers-model",
+  "generatedBy": "TensorFlow.js v4.22.0",
+  "convertedBy": null,
+  "modelTopology": {
+    "class_name": "Sequential",
+    "config": {
+      "name": "sequential_1",
+      "layers": [
+        {
+          "class_name": "Conv2D",
+          "config": {
+            "filters": 32,
+            "kernel_size": [3, 3],
+            "activation": "relu",
+            "input_shape": [100, 100, 3]
+          }
+        },
+        {
+          "class_name": "MaxPooling2D",
+          "config": {
+            "pool_size": [2, 2]
+          }
+        },
+        {
+          "class_name": "Conv2D",
+          "config": {
+            "filters": 64,
+            "kernel_size": [3, 3],
+            "activation": "relu"
+          }
+        },
+        {
+          "class_name": "MaxPooling2D",
+          "config": {
+            "pool_size": [2, 2]
+          }
+        },
+        {
+          "class_name": "Flatten",
+          "config": {}
+        },
+        {
+          "class_name": "Dense",
+          "config": {
+            "units": 64,
+            "activation": "relu"
+          }
+        },
+        {
+          "class_name": "Dense",
+          "config": {
+            "units": 2,
+            "activation": "softmax"
+          }
+        }
+      ]
+    }
+  },
+  "weightsManifest": [
+    {
+      "paths": ["weights.bin"],
+      "weights": [
+        {"name": "conv2d_1/kernel", "shape": [3, 3, 3, 32], "dtype": "float32"},
+        {"name": "conv2d_1/bias", "shape": [32], "dtype": "float32"},
+        {"name": "conv2d_2/kernel", "shape": [3, 3, 32, 64], "dtype": "float32"},
+        {"name": "conv2d_2/bias", "shape": [64], "dtype": "float32"},
+        {"name": "dense_1/kernel", "shape": [25600, 64], "dtype": "float32"},
+        {"name": "dense_1/bias", "shape": [64], "dtype": "float32"},
+        {"name": "dense_2/kernel", "shape": [64, 2], "dtype": "float32"},
+        {"name": "dense_2/bias", "shape": [2], "dtype": "float32"}
+      ]
+    }
+  ]
+}
